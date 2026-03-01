@@ -4,8 +4,8 @@
 
 ## 功能特性
 
-- **通用写作**：不再局限于 AI 资讯，支持任意领域的文章撰写（科技、医疗、管理、情感等）。
-- **稳健渲染**：不再让 AI 直接手写脆弱的内联 CSS 和 HTML，而是通过 Python 的 `markdown` 和 `css-inline` 库在本地执行转换，杜绝格式错乱。
+- **通用写作**：支持任意领域的文章撰写（科技、医疗、管理、情感等）。
+- **稳健渲染**：不让 AI 直接手写脆弱的内联 CSS 和 HTML，而是通过 Python 的 `markdown` 和 `css-inline` 库在本地执行转换，杜绝格式错乱。
 - **自动配图与上传**：AI 负责生成 Markdown 和本地图片，Python 脚本负责识别 Markdown 中的图片路径（如 `![配图](/tmp/img.png)`），自动上传到微信公众号并替换为 `mmbiz.qpic.cn` 的合法链接。
 - **多主题支持**：内置 `styles.json` 包含十余种经典的公众号排版风格（如 purple, github, newsprint 等）。
 
